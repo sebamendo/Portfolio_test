@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(90deg, rgb(16,15,22), rgb(34, 35, 67), rgb(39,27,41));
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head a{
+    padding: 20px 30px;
+    background-color: #317ac7;
+    margin-right: 20px;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fcf9bf;
+    text-decoration: none;
+    box-shadow: 5px 5px 15px rgba(113, 244, 252, 0.747);
+}
+
+.head a:hover{
+    text-decoration: none;
+    background-color: #245f9e;
+    box-shadow: 4px 4px 20px rgba(223, 57, 209, 0.747);
+}
+
+.header{
+    padding: 250px;
+    background-image: url("media/header.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0px 15px;
+    text-shadow: 5px 5px 10px rgba(113, 244, 252, 0.747); ;
+    border-radius: 20px;
+    color: #fcf9bf;
+    box-shadow: 5px 5px 15px rgba(113, 244, 252, 0.747);
+
+}
+
+.header:hover{
+    box-shadow: 4px 4px 20px rgba(223, 57, 209, 0.747);
+    text-shadow: 5px 5px 10px rgba(223, 57, 209, 0.747);
+}
+
+.sobre_mi{
+    display: flex;
+    color: #fcf9bf;
+    background: linear-gradient(90deg, rgb(16,15,22), rgb(34, 35, 67), rgb(39,27,41));
+    padding: 60px 20px;
+    margin: 50px 20px;
+    box-shadow: 5px 5px 15px rgba(113, 244, 252, 0.747);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre_mi .titulo{
+    padding: 40px 40px;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sobre_mi .relleno_sobre_mi{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre_mi:hover{
+    box-shadow: 4px 4px 20px rgba(223, 57, 209, 0.747);
+}
+
+.experiencia{
+    color: #fcf9bf;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px 20px;
+    margin: 50px 20px;
+    background: linear-gradient(90deg, rgb(16,15,22), rgb(34, 35, 67), rgb(39,27,41));
+    box-shadow: 5px 5px 15px rgba(113, 244, 252, 0.747);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.experiencia .titulo{
+    text-align: center;
+    justify-content: center;
+}
+
+.relleno_exp .exp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emp_logo .logo_empresa{
+    padding: 40px 40px;
+}
+
+.exp_dato p{
+    font-size: 20px;
+}
+
+.experiencia:hover{
+    box-shadow: 4px 4px 20px rgba(223, 57, 209, 0.747);
+}
+
+.estudios{
+    color: #fcf9bf;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px 20px;
+    margin: 50px 20px;
+    background: linear-gradient(90deg, rgb(16,15,22), rgb(34, 35, 67), rgb(39,27,41));
+    box-shadow: 5px 5px 15px rgba(113, 244, 252, 0.747);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.estudios .titulo_estudios{
+    text-align: center;
+    justify-content: center;
+}
+
+.relleno_estudios .institucion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.institucion .inst_logo{
+    padding: 40px 40px;
+}
+
+.est_datos p{
+    font-size: 20px;
+}
+
+.estudios:hover{
+    box-shadow: 4px 4px 20px rgba(223, 57, 209, 0.747);
+}
